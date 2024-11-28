@@ -11,8 +11,10 @@ library(readxl)
 library(openxlsx)
 
 # Read data --------------------------------------------------------------------
-# data_in <- readr::read_csv("data-raw/dataset.csv")
-# codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
+# data_in <- readr::read_csv("data-raw/GIS-Joined2.csv")
+
+read_excel("data-raw/GIS-Joined.xlt")
+# codebook <- readxl::read_excel("data-raw/GIS-Joined.xlt") |>
 #  clean_names()
 
 # Tidy data --------------------------------------------------------------------
